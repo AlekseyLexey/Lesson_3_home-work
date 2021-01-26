@@ -1,0 +1,82 @@
+/* Обнуляющий стиль */
+*,
+*::before, 
+*::after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li{
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* Стили */
+
+/* Header start */
+.header{
+	color: rgb(255, 238, 0);
+}
+h1{
+	height: 50px;
+}
+.link{
+	color: gray;
+}
+/* ul li a{
+	color: red;
+} Запись выше для ссылок сиьнее (.link)*/
+.link span{
+	color:blue;
+}
+.link .you{
+	color:tomato;
+}
+/* Header end */
+
+/* Main start */
+.colors{
+	color: rgb(219, 134, 109);
+}
+.text{
+	color: rgb(26, 221, 163);
+}
+ol li p span{
+	color: orangered;
+}
+#paragraph{
+	color: rgb(0, 217, 255);
+}
+/* Main end */
+
+/* Footer start */
+.footer{
+	color:darkcyan;
+}
+.down{
+	color:darkgoldenrod;
+}
+div .check{
+	color:rgb(145, 216, 39);
+}
+.check{
+	color: black;
+}
+/* Footer end */
